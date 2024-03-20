@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Damon" />
+    <meta name="description" content="" />
+    <!-- main style css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="logo.jpg" type="img/x-icon" />
+    <title>Dictionary web app</title>
+    <script
+      src="https://kit.fontawesome.com/533e5d4e51.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <nav>
+          <div class="logo">
+            <a href="#"
+              ><img
+                src="https://mateusbelicio.github.io/dictionary-web-app/assets/logo-1ad79f67.svg"
+                alt=""
+            /></a>
+          </div>
+          <div class="changes">
+            <div class="font-family">
+              <span class="family">
+                <span>Sans Serif</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-chevron-down"
+                >
+                  <path d="m6 9 6 6 6-6"></path>
+                </svg>
+              </span>
+              <ul>
+                <li class="sans">Sans Serif</li>
+                <li class="serif">Serif</li>
+                <li class="mono">Mono</li>
+              </ul>
+            </div>
+            <div class="main-toggle">
+              <div class="toggle">
+                <span class="toggle-thumb"></span>
+              </div>
+              <label> <i class="fa-solid fa-moon"></i> </label>
+            </div>
+          </div>
+        </nav>
+        <form class="input">
+          <input
+            type="t"
+            placeholder="Search for any word..."
+            class="search-input"
+          />
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </form>
+      </header>
+      <section class="result">
+        <div class="logo">
+          <a href="#"
+            ><img
+              src="https://mateusbelicio.github.io/dictionary-web-app/assets/logo-1ad79f67.svg"
+              alt=""
+          /></a>
+        </div>
+        <h1>Welcome to Dictionary App</h1>
+        <p>Start searching for any word...</p>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
